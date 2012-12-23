@@ -12,6 +12,5 @@ Gem::Specification.new do |s|
   s.summary     = %q{Raphael JS as a Rubygem}
   s.description = %q{Raphael JS as a Rubygem for use in the Rails asset pipeline}
 
-  s.test_files = Dir['vendor/assets/javascripts/test']
   s.files = %w(README.md license.txt Rakefile Gemfile) + Dir['lib/**/*', 'vendor/**/*']
 end
